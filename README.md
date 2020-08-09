@@ -15,15 +15,15 @@ My name is Alejandro Ruiz, this repository is just to store everything relevant 
 
 #  **FAQs**
 
-### **¿De dónde eres?
+### ¿De dónde eres?
 
 Nací, me crié y vivo en Málaga.
 
-### **¿Edad?
+### ¿Edad?
 
 28 años
 
-###**¿Por qué empezaste a programar tan tarde?
+### ¿Por qué empezaste a programar tan tarde?
 
 Me formé como músico durante toda mi vida, estudiando en el conservatorio de música superior de Málaga y consiguiendo mi licenciatura. Desgraciadamente soy hiperlaxo, esto con el tiempo derivó en una pequeña lesión en la mano izquierda ( Inflamación con líquido sinovial ) que me impide tener la velocidad necesaria para poder trabajar activamente en cualquier orquesta o  practicar tantas horas como me gustaría. 
 
@@ -31,15 +31,15 @@ Por tanto, decidí dedicarme profesionalmente a mi gran hobby. La tecnología y 
 
 
 
-### **Where are you from?
+### Where are you from?
 
 I was born and live in Malaga.
 
-### **Age?
+### Age?
 
 28 years
 
-### ** Why did you start programming so late?
+### Why did you start programming so late?
 
 I trained as a musician throughout my life, studying at the Malaga Conservatory of Music and getting my degree. Unfortunately I am hypermobile, this eventually led to a small injury in my left hand (inflammation with synovial fluid) that prevents me from having the necessary speed to be able to actively work in any orchestra or practice as many hours as I would like.
 
