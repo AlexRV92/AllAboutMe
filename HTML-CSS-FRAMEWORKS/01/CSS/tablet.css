@@ -1,0 +1,52 @@
+
+  #logo{
+    
+    
+    margin: 10px 49%;
+    padding: 20px auto;
+    
+  }
+
+
+  #navbar { 
+  
+    position: relative;
+    height: 250px;
+  }
+  
+  #navbar li{
+
+    display: inline-block;
+    width: 100%;
+  }
+
+  #navbar li a{
+    display: block;
+    margin: 5px 39%;
+    
+  }
+
+  #navbar hr {
+    display: block;
+    width: 46%;
+    margin: 10px 27%;
+  }
+
+  #showcase{ 
+    height: 450px;
+  }
+
+  #photo {
+    display: none;
+  }
+
+  #contenido {
+    
+    width: 100%;
+  }
+
+  .articulo{
+    display: block;
+    width: 100%;
+    padding: 15px 15px;
+  }

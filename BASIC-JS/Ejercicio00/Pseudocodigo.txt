@@ -1,0 +1,50 @@
+ALGORITMO CAJERO2;
+
+VAR
+
+	
+	STRING Respuesta;
+  banco = [ 
+    usuario { estado, saldo_usuario }
+  ]
+
+
+INICIO
+
+	ESCRIBIR ( "Quiere comprobar su saldo?" );
+	LEER ( Respuesta ); 
+
+	SI ( Respuesta === Sí ) { 
+
+    SI ( Usuario.Estado === activo ){
+      SI (Usuario.Saldo =/ 0 ){ 
+        SI ( Usuario.Saldo > 0 ){ 
+          ESCRIBIR( "Su saldo actual es: Usuario.saldo");
+          FIN DEL PROGRAMA;
+        }
+
+        SI NO { 
+          ESCRIBIR( "Contacte con su banco" );
+          FIN DEL PROGRAMA;
+        }
+      }
+
+      SI NO{
+        ESCRIBIR( "Usted no tiene saldo disponible");
+        FIN DEL PROGRAMA 
+
+      }
+    }
+
+    SI NO { 
+      ESCRIBIR( "Su usuario no esta activo" );
+      FIN DEL PROGRAMA;  
+    }
+  }
+
+	SI NO { 
+
+    ESCRIBIR( "Que tenga un buen día" )
+    FIN DEL PROGRAMA
+  }
+

@@ -1,0 +1,241 @@
+*{ 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{ 
+
+  font-family: 'Rowdies', cursive;;
+  font-size: 18px;
+  background-color: white;
+}
+
+.container-fluid{ 
+  
+}
+header{ 
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #242424;
+  height: 4em;
+}
+nav { 
+
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#logo { 
+  margin: 0.2em 1em;
+
+}
+
+#logo a { 
+  text-decoration: none;
+  color: white;
+}
+
+#menu-a:hover{ 
+  color: #29AAFD;
+}
+
+.main-menu { 
+
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  position: absolute;
+  right: 0;
+  justify-content: space-around;
+}
+
+#menu-item { 
+
+  margin: 1em 1em;
+  justify-content: center;
+  
+  
+}
+
+#menu-a{ 
+  font-size: 20px;
+  text-decoration: none;
+  padding: 2em;
+  color: white;
+}
+
+#showcase { 
+  background: url('/Pokedex/img/01.jpg')no-repeat center center/cover;
+  height: 65vh;
+  width: 100%;
+  
+}
+
+#showcase:before {
+	content:'';
+	position: absolute;
+        top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  background-color: rgba(0,0,0,0.3);
+  height: 71vh;
+}
+
+
+
+#showcase-img { 
+  z-index: 25;
+  height: 70vh;
+}
+
+#showcase-img img{ 
+
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  right: 0;
+  margin: 20% 45%;
+}
+
+#showcase-text { 
+ 
+  height: 70vh;
+  color: beige;
+  
+  
+}
+
+#text-showcase:first-child { 
+  color: white;
+  text-align: center;
+  margin: 20% 0 0 0;
+  font-size: 60px;
+}
+
+#text-showcase:nth-child(2){ 
+  color: white;
+  margin: 5%;
+  text-align: center;
+}
+
+#poke-container { 
+  background-color: #DEDEDE;
+  text-align: center;
+  
+}
+
+#poke-container h2 { 
+  padding: 3% 0 0 0;
+  
+}
+
+#card-container { 
+
+  padding: 5% 10%;
+}
+
+#search { 
+
+  margin-top: 3rem;
+}
+
+#search-bar { 
+
+  padding: 0.7em 4em;
+  border-bottom-left-radius: 10px ;
+  border-top-left-radius: 10px ;
+  font-size: 16px;
+  border: 1px solid black;
+  margin-right: 0;
+}
+
+#enviar { 
+
+  margin: 0;
+  padding: 0.5em 1em;
+  background: #196B9D;
+  color: white;
+  font-size: 19px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#enviar:hover{ 
+  background: #29AAFD;
+}
+
+.card { 
+  justify-content: center;
+  box-shadow: 8px 10px rgba(36, 36, 36, 0.5);
+
+  margin-top: 30px;
+  
+}
+
+#img-card { 
+
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
+
+  
+}
+
+.card-body {
+  
+  padding: 0;
+  margin: 0;
+  border: 2px solid #DC0A2F;
+  border-top: none;
+  background: #ffffff;
+  
+  
+
+}
+
+.card { 
+  background: #242424;
+  border: 2px solid #DC0A2F;
+  border-left: none;
+  border-right: none;
+  border-top-right-radius: 10px ;
+  border-top-left-radius: 10px;
+}
+
+#card-title { 
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: 'Press Start 2P', cursive !important;
+  margin-top: 15px;
+  font-weight: bold;
+ 
+}
+
+#type { 
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 0 1em 1em 1em;
+  font-family: 'Press Start 2P', cursive !important;
+  margin-top: 30px;
+  
+}
+
+
+#lineachunga { 
+  margin: auto;
+  width: 50%;
+  border-color: #52AD60;
+} 
+
+#buscaaqui { 
+
+  margin-bottom: 1em;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  text-shadow: 1px 1px #242424;
+}

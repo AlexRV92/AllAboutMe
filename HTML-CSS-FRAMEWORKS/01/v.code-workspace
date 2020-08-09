@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\1-HTML"
+		},
+		{
+			"path": "..\\EJERCICIO 2"
+		},
+		{
+			"path": "..\\..\\2-CSS"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\PruebaAgenciaViajes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "EJERCICIO 3"
+	}
+}

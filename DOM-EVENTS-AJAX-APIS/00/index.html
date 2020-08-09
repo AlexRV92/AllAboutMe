@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Document Object Model</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body class="">
+<header>
+    <h1>Document Object Model</h1>
+    <p>Bienvenido al TODO list definitivo. Una vez</p>
+    <nav>
+        <ul class="nav">
+            <li class="nav-item active"><a href="#home">Home</a></li>
+            <li class="nav-item"><a href="#bart">Bart</a></li>
+            <li class="nav-item"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="content">
+    <form action="" id="theForm">
+        <label for="task">Tareas</label>
+        <input type="text" name='task' id='task' placeholder='Pasear el perro'/>
+        <input type="submit" value="Añadir tarea"/>
+    </form>
+
+    <h2>Mis tareas</h2>
+    <ul id="collection-task">
+        <li class="task-item">Pasear al perro</li>
+        <li class="task-item">Pedir la cena</li>
+        <li class="task-item">Poner la lavadora</li>
+        <li class="task-item">Preparar los ejercicios</li>
+    </ul>
+
+    <img src="https://picsum.photos/300/300"
+         alt="perro guapo"/>
+
+    <a name="contact-form"></a>
+    <h2>Contáctanos</h2>
+
+    <form action="" id="theContactForm">
+        <label for="firstname">Nombre</label>
+        <input type="text" name='firstname' id='firstname' required/>
+        <label for="lastname">Apellidos</label>
+        <input type="text" name='lastname' id='lastname' required/>
+        <label for="email">Email</label>
+        <input type="email" name='email' id='email' required/>
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" required></textarea>
+        <input type="submit" value="Enviar"/>
+    </form>
+</div>
+
+<footer>
+    Todos los derechos reservados 2020
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

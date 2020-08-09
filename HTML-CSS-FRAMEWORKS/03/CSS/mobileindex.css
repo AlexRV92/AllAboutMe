@@ -1,0 +1,146 @@
+
+body{ 
+  font-size: 14px;
+}
+header { 
+  grid-template-areas: 'logo logo' 
+                       'navbar navbar';
+  gap: 0;
+  
+}
+.social { 
+  display: none;
+}
+
+.logo { 
+  
+  text-align: center;
+  
+  
+}
+
+#showcase { 
+  width: 100%;
+}
+#parrafo {
+  
+  width: 100%;
+  font-size: 14px;
+  padding: 5px 5px 25px 10px;;
+  
+
+}
+
+#showcase h1 {
+  
+  padding: 20px 5px 5px 5px;
+
+  
+}
+
+#showcase h3 { 
+  margin-left: 5px;
+}
+
+#grid-container { 
+  grid-template-areas: 
+                       'art1'
+                       'art1'
+                       'art2'
+                       'art3' 
+                       'art3' 
+                       'art4' 
+                       'art4'
+                       'art5'
+                       'art5'
+                       'art6'
+                       'art7'
+                       'art7';
+  grid-auto-columns: 100%;
+}
+
+#art-1 { 
+  flex-direction: column;
+  width: 100%;
+}
+
+#img1 img { 
+  width: 100%;
+}
+
+.contenido-articulo { 
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.contenido-articulo-vertical { 
+
+  width: 100%;
+  padding: 5px 10px;
+}
+
+#img3 img { 
+  width: 100%;
+}
+
+
+
+ #img4 img{
+   width: 100%;
+ }
+
+ #img5 img { 
+   width: 100%;
+ }
+
+ #art-7 { 
+   flex-direction: column;
+ }
+
+ #img7 img { 
+   width: 100%;
+ }
+
+
+ .webfooter { 
+
+  grid-template-areas: 'news' 
+                       'email' 
+                       'links'
+                       'links'
+                       'club' 
+                       'club' 
+                       'copy' ;
+ grid-auto-columns: 100%;
+ height: auto;
+
+ }
+
+ #newsgrid { 
+   width: 100%;
+   padding: 0;
+   
+ }
+
+ #email { 
+   width: 100%;
+   margin-top: 10%;
+   padding: 0 5%;
+ }
+
+ #links { 
+   width: 100%;
+   margin-top: 30%;
+ }
+
+ #club  { 
+   width: 100%;
+   margin-top: 20%;
+   height: 20vh;
+   padding: 5%;
+ }
+
+ #copy { 
+   width: 100%;
+   margin-top: 5%;
+ }

@@ -1,0 +1,238 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+
+  width: 100%;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#logo{
+
+  display: inline-block;
+  float: left;
+  margin: 5px 0 0 15px;
+  height: 40px;
+  width: 50px;
+  color: white;
+  
+}
+
+#navbar hr {
+  display: none;
+}
+
+#navbar {
+
+  height: 50px;
+  padding: 0;
+  list-style: none;
+  display: block;
+  position: fixed;
+  width: 100%;
+  
+  background-color: #333;
+}
+
+/* Tecnica para alinear verticalmente con flex 
+
+vertical-align: middle 
+
+afecta a la posicion vertical de un inline en un elemento que este dentro de una caja*/
+
+#navbar li{
+
+  display: inline-block;
+  float: right;
+  margin: 0 10 0 10;
+  text-align: center;
+  
+}
+
+#navbar li a{
+
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  text-decoration: none;
+  color: whitesmoke;
+  margin:0;
+  padding: 15px ;
+  font-size: 16px;
+
+  filter:alpha(opacity=70);
+	-moz-opacity:.70;
+	opacity:.70;
+}
+
+#navbar li a:hover{
+  
+  opacity: 100%;
+  
+}
+
+
+#showcase{
+
+  width: 100%;
+  height: 600px;
+  background: url('/img/showcase.jpg') no-repeat center center/cover;
+  text-align: center;
+  color: whitesmoke;
+
+}
+
+#showcase h1{
+
+  padding: 10% 0 0 0;
+  font-size: 50px;
+}
+
+#showcase p{
+
+  margin: 2% 0;
+}
+
+#showcase a{
+
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #333;
+  display: inline-block;
+  height: 38px;
+  padding: 5px 5px;
+  opacity: 70%;
+}
+
+#showcase a:hover{
+  opacity: 100%;
+}
+
+#history{
+
+  width: 50%;
+  height: 400px;
+}
+
+#history{
+  display: block;
+  width: 100%;
+  background: #333;
+  height: 300px;
+}
+#photo{
+
+  display: inline-block;
+  width: 49%;
+  
+  height: 300px;
+  background:url('/img/photo-1.jpg') no-repeat center center/cover; 
+
+ 
+}
+
+#contenido{
+  
+  display: inline-block;
+  width: 49%;
+  height: 300px;
+  float: right;
+  
+ 
+  text-align: center;
+  color: whitesmoke; 
+}
+
+#contenido a{
+
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  display: inline-block;
+  height: 38px;
+  padding: 5px 5px;
+  opacity: 80%;
+  margin-top: 30px;
+  
+
+}
+
+#contenido a:hover{
+
+  opacity: 100%;
+}
+
+#contenido h2{
+
+  padding: 23px 0;
+}
+
+#clear{
+  clear: both;
+}
+
+#plus{
+
+  display: block;
+  width: 100%;
+  height: 100%;
+  
+  
+  
+  
+}
+
+.articulo {
+
+  display: inline-block;
+  width: 32%;
+  background-color: #F6BF89;
+  padding: 0 0;
+  height: 100%;
+  
+}
+
+.articulo:first-child{
+  background-color: white;
+
+}
+
+.articulo:last-child{
+  background-color: white;
+}
+.articulo h3{
+
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.articulo p{
+
+  margin: 25px;
+  text-align: center;
+}
+
+.articulo img{
+
+  padding: 20px
+}
+
+footer{
+
+  position: sticky;
+  height: 50px;
+  text-align: center;
+  color: whitesmoke;
+  background-color: #333;
+  padding: 15px 0 
+}
+
+

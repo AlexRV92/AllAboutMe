@@ -1,0 +1,56 @@
+ALGORITMO Cajero;
+
+VAR 
+
+	ENTERO Solicitado, Restante, Entregado,T_entregado, T_disponible, TotalBilletes;
+	OBJETO[Bvalor, Bcantidad]  
+
+
+INICIO
+
+	ESCRIBIR ("Ingresa cuanto dinero quieres") 
+	LEER (Solicitado)
+	Restante <- Solicitado ;
+
+	MIENTRAS ( Solicitado < T_disponible && Solicitado >= 10 )
+
+		MIENTRAS ( TOTALB =/0 )	 
+			REPETIR ( billetes <- floor(restante/bvalor);
+				SI ( Billetes < B.cantidad )
+					Entregado.[Bvalor] <- billetes;
+					T_entregado <- T_entregado + (Bvalor * billetes);
+					Restante <- Solicitado - T_entregado;
+					
+					SI NO  
+						Billetes <- Bcantidad
+						Entregado.[Bvalor] <- billetes;
+						T_entregado <- T_entregado + (Bvalor * billetes);
+						Restante <- Solicitado - T_entregado;
+						
+					SI ( RESTANTE == 0 ) 
+						ESCRIBIR ( Entregado );
+						FIN
+					
+					SI NO
+                  				TOTALBilletes <- TOTALBilletes - 1;
+
+
+	ESCRIBIR ( "NO HAY SUFICIENTE DINERO" )
+	FIN 
+
+		
+						
+					
+						 
+
+					
+				
+	
+
+
+	
+	
+		
+		
+			
+		

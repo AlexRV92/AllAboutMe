@@ -1,0 +1,347 @@
+/* RESET CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* HELPERS */
+
+.background-red {
+  background-color: #C8352A;
+}
+
+.background-darkgrey { 
+  background-color: #343434;
+}
+
+.white-text {
+  color: #f4f4f4;
+}
+
+.grey-text { 
+  color: #787878;
+}
+
+.categoria {
+  display: inline;
+  font-size: 0.7em;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.background-white { 
+  background-color: white !important;
+}
+
+.techcolor { 
+
+  background-color: #329CFB;
+}
+
+.sportcolor { 
+  background-color: #F19533;
+
+}
+
+.entercolor { 
+  background-color: #A66BBF;
+}
+
+
+/* CSS  */
+body {
+
+  font-size: 16px;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+header{
+
+  width: 100%;
+  display: grid;
+  grid-template-areas: 'logo'
+                       'navbar';
+  grid-template-rows: 55px;
+  background-color: white;
+                       
+
+}
+
+.logo{
+  grid-area: logo;
+  display: flex;
+  justify-content: center;
+  
+  
+
+}
+
+.logo img{
+
+  height: 70px;
+  padding: 10px 50px;
+}
+
+
+
+.navbar{
+  grid-area: navbar;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  
+
+}
+
+.btn {
+  text-decoration: none;
+  padding: 7px 10px;
+  
+}
+
+.btn a {
+  text-decoration: none;
+  opacity: 80%;
+}
+
+.btn a:hover{
+  opacity: 100%;
+}
+
+#home a{
+  color: white;
+  
+}
+
+#about a {
+  color: black;
+
+}
+
+
+main{
+
+  display: grid;
+  grid-template-columns: repeat(4,  auto);
+  grid-template-rows: repeat( 6, auto) ;
+  padding: 2% 7% 4% 7%;
+  gap: 2%;
+  background-color: #f3f3f3;
+}
+
+#texto h1 { 
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+  grid-row-start: 1;
+  grid-row-end: 2;
+
+  font-size: 60px;
+  text-align: left;
+  padding: 1em 1em 0.5em 1em;
+}
+
+#texto { 
+
+  grid-column-start: 1;
+  grid-column-end: 4;
+
+  grid-row-start: 1;
+  grid-row-end: 6;
+
+  line-height: 1.6em;
+
+}
+
+
+
+#texto p {
+
+  padding: 2em 4em 0 1.6em;
+  text-align: left;
+
+ }
+
+ #texto p:last-child { 
+   padding: 0.5em 4em 0 1.6em;
+ }
+
+ 
+
+aside {
+  
+  grid-column-start: 4;
+  grid-column-end: 4;
+
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding: 1em;
+
+}
+
+aside h2{
+
+  padding: 1em;
+  
+}
+
+aside p {
+
+  line-height: 1.5em;
+  padding: 1em;
+}
+
+aside a {
+
+  display: block;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  text-align: center;
+  margin-top: 60px;
+  padding: 25px 30px;
+  opacity: 80%;
+  
+}
+
+aside a:hover {
+
+  opacity: 100%;
+}
+
+.webfooter{
+
+  display: grid;
+  grid-template-areas: 'news email links club'
+                       'news email links club'
+                       'copy copy   copy  copy';
+  grid-auto-rows: 18vh;
+  grid-column: minmax(24,999vw , auto);
+  padding: 1em 4vw 0 4vw;
+  position: sticky;
+  
+
+}
+
+#newsgrid {
+  grid-area: news;
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  padding: 20px;
+
+}
+
+#newsgrid p{
+
+  padding: 2em;
+  line-height: 1,7em;
+}
+
+#newsgrid img {
+
+  height: 45px;
+  width: 200px;
+  margin-left: 2em;
+}
+
+#email{
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+
+  grid-area: email;
+  
+}
+
+#email p { 
+  padding: 1em 0;
+}
+
+#email input { 
+
+  padding: 10px;
+}
+
+#email a { 
+
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  background-color:#C8352A ;
+  padding: 7px;
+  text-align: center;
+  opacity: 80%;
+}
+
+#email a:hover{
+  opacity: 100%;
+}
+
+#links {
+  grid-area: links;
+  width: 25vw;
+  padding: 0em 2em;
+
+}
+
+#links li{
+  display: block;
+  border-bottom: 1px solid grey;
+  padding: 1em 0em;
+}
+
+#links a{
+  text-decoration: none;
+  color: white;
+  
+}
+
+#links a:hover {
+  color: #C8352A ;
+}
+
+#links ul { 
+  list-style: none;
+}
+
+#club {
+  grid-area: club;
+  
+}
+
+#club p {
+  padding: 1em 0;
+  margin-bottom: 20px;
+}
+
+#club a{ 
+  text-decoration: none;
+  color: white;
+  background-color: #F19533;
+  padding: 10px 25px;
+  opacity: 80%;
+}
+
+#club a:hover{ 
+  opacity: 100%;
+}
+
+#copy{
+  grid-area: copy;
+  
+}
+
+#copy p{ 
+  background-color: #454545;
+  text-align: center;
+  padding: 20px 0;
+}
+

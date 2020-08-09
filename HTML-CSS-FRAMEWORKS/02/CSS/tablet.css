@@ -1,0 +1,119 @@
+
+
+header{
+
+  width: 100%;
+
+  
+}
+
+
+.menunav li{
+  
+  width: 15%;
+  padding: 20px 0;
+   
+}
+
+.menunav li a{ 
+
+  padding: 5px;
+}
+
+
+  
+
+
+#showcase{
+
+  
+  width: 100%;
+ 
+}
+
+#showcase p{
+
+  padding: 30px;
+}
+
+#container{ 
+
+  
+
+}
+
+.box {
+  
+  display: block;
+  width: 100%;
+  margin: 10px;
+  height: 70%;
+}
+
+#wware {
+
+  margin-top: 30px;
+  
+  height: 800px;
+  
+}
+
+#wwarephoto{ 
+
+    width: 50%;
+    height: 800px;
+  
+}
+
+#wwaretext {
+
+  
+  width: 49%;
+
+}
+#wwaretext h2{
+
+  padding: 10px 0 20px 0;
+}
+#wwaretext h3{
+
+  
+  padding: 20px 20px 20px 0;
+}
+
+#clients {
+
+  width: 100%;
+  height: 100%;
+}
+
+#clientlogo img{ 
+
+  width: 60%;
+  height: 40%;
+  margin: 0;
+}
+
+#contact {
+
+  width: 100%;
+}
+#formwrap{ 
+
+  width: 60%;
+}
+
+#map { 
+
+  width:40%;
+  height: 100%;
+  
+}
+
+#map iframe{ 
+
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  float: right;
+}
