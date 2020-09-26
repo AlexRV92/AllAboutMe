@@ -1,0 +1,16 @@
+{
+    "name": "express-hola-mundo",
+    "version": "1.0.0",
+    "main": "main.js",
+    "author": "Juan Manuel Castillo",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "scripts": {
+        "dev": "nodemon main.js"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}

@@ -1,0 +1,2 @@
+<link rel="stylesheet" href="http://flashexperience.net/eoi/massively/assets/css/main.css" />
+<noscript><link rel="stylesheet" href="http://flashexperience.net/eoi/massively/assets/css/noscript.css" /></noscript>

@@ -1,0 +1,15 @@
+{
+    "name": "express-dontenv-practica",
+    "version": "1.0.0",
+    "main": "main.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "node main.js"
+    },
+    "devDependencies": {
+        "dotenv": "^8.2.0"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

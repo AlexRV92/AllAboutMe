@@ -1,0 +1,17 @@
+{
+    "name": "express-dotenv",
+    "version": "1.0.0",
+    "main": "main.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon main.js"
+    },
+    "devDependencies": {
+        "dotenv": "^8.2.0",
+        "nodemon": "^2.0.4"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "nunjucks": "^3.2.2"
+    }
+}

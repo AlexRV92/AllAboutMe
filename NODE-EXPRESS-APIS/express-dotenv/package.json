@@ -1,0 +1,12 @@
+{
+    "name": "express-dotenv",
+    "version": "1.0.0",
+    "main": "main.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "node main.js"
+    },
+    "devDependencies": {
+        "dotenv": "^8.2.0"
+    }
+}
